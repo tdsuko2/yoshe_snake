@@ -50,7 +50,7 @@ function getRandomInt(min, max) {
 // game loop
 function loop() {
 	requestAnimationFrame(loop)
-	if (++count < 6) {
+	if (++count < 3) {
 		return
 	}
 	count = 0
